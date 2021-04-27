@@ -33,7 +33,7 @@ bool QrToPng::writeToPNG() {
 
     if (_overwriteExistingFile and exists_byStat(_fileName)/*fs::exists(_fileName)*/){
 
-        //-----------------from----------to-----------------------options
+//-----------------from----------to-----------------------options
 //        if (!fs::copy_file(_fileName, _fileName + ".tmp", fs::copy_options::overwrite_existing))
 //            return false;
 

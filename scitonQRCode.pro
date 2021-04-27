@@ -19,7 +19,6 @@ HEADERS += \
     libs/tinypngout/TinyPngOut.hpp \
     libs/Qr-To-Png/QrToPng.h \
     libs/Qr-To-Png/fileOperations.h \
-    libs/qrCodeGenWrapper.h \
     libs/CLI/App.hpp \
     libs/CLI/CLI.hpp \
     libs/CLI/Config.hpp \
@@ -34,5 +33,8 @@ HEADERS += \
     libs/CLI/Timer.hpp \
     libs/CLI/TypeTools.hpp \
     libs/CLI/Validators.hpp \
-    libs/CLI/Version.hpp
+    libs/CLI/Version.hpp \
+    QrReturnCodes.h
 
+OTHER_FILES += \
+    Scripts/qrScript.sh
